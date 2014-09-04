@@ -1,0 +1,11 @@
+---
+- name: hello world!
+  hosts: game-sdh
+  user: zyh
+  
+#  tasks:
+#    - name: hello world!
+#      shell: echo "hi! everyone.hi {{ sitename }}"
+
+  roles:
+    - { role: common }

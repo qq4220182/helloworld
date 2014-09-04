@@ -1,0 +1,2 @@
+- name: echo " {{ sitename }} "
+  shell: /bin/echo "wellcome! {{ sitename }}" 
